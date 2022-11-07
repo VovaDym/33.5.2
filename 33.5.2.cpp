@@ -49,8 +49,7 @@ int main()
             if (pond[answer] == "fish")
             {
                 std::cout << "Number of your attempts was " << attemptsCount << std::endl;
-                throw std::runtime_error("You catch a fish");
-                
+                throw std::runtime_error("You catch a fish");   
             }   
             else if (pond[answer] == "boot")
             {
